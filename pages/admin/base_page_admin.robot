@@ -1,12 +1,11 @@
 *** Settings ***
 Library    SeleniumLibrary
 Library    DateTime
-Library    ../../../.venv/lib/python3.11/site-packages/robot/libraries/XML.py
 
 # Resource    consultar_venda_produtos_po.robot
 # Resource    consultar_venda_assinaturas_po.robot
 # Resource    consultar_saldo_total_po.robot
-# Resource    login_admin_page.robot
+Resource    login_admin_page.robot
 
 *** Variables ***
 ${timeout}    5000ms
