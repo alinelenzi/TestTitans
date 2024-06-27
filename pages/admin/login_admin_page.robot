@@ -38,20 +38,3 @@ Verify Login Successful
     Element Should Be Visible  ${SUCCESS_ELEMENT}
 
 
-# *** Variables ***
-
-# ${txt_usuario}    css_selector_email_input = ".input-wrapper > .input-wrapper-inpt > input[type='email']"
-# ${txt_senha}    css_selector_password_input = ".input-wrapper > .input-wrapper-inpt > input[type='password']"
-# ${btn_login}    css_selector_login_button = ".button-text > span"
-
-# *** Keywords ***
-# Preencher usuario
-#     [Arguments]    ${usuario}
-#     Input Text    ${txt_usuario}    ${usuario}
-
-# Preencher senha
-#     [Arguments]    ${senha}
-#     Input Password    ${txt_senha}    ${senha}
-
-# Clicar no botao login
-#     Click Button    ${btn_login}
