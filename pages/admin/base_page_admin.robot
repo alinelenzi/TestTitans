@@ -1,7 +1,6 @@
 *** Settings ***
 Library    SeleniumLibrary
 Library    DateTime
-Library    ../../../.venv/lib/python3.11/site-packages/robot/libraries/XML.py
 
 # Resource    consultar_venda_produtos_po.robot
 # Resource    consultar_venda_assinaturas_po.robot
