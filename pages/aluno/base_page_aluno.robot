@@ -16,17 +16,17 @@ Abrir navegador
     Open Browser    url=${url}    browser=${browser}
     Maximize Browser Window
     Set Browser Implicit Wait    10000ms
-    Wait Until Element Is Visible    css=overview-group-title.overview-group-title_primary    ${timeout}
+    Wait Until Element Is Visible    css=    ${timeout}
 
 Fechar navegador
     Sleep    500ms
     Close Browser
 
 Realizar Logout
-    Click Button    css=.dropdown-icon.fas.fa-chevron-down
-    Wait Until Element Is Visible    css=.dropdown-item.dropdown_footer
-    Click Link    css=.dropdown-item.dropdown_footer   
-    Wait Until Element Contains    css=.span    Advanced Tests - Teste
+    Click Button    css=
+    Wait Until Element Is Visible    css=
+    Click Link    css=   
+    Wait Until Element Contains    css=    Advanced Tests - Teste
 
 Obter Data e hora
     ${date} =    Get Current Date
@@ -35,4 +35,4 @@ Obter Data e hora
 
 Tirar Screenshot    
     [Arguments]    ${screenshot_name}    
-    Capture Page Screenshot    screenshots/eveclassTestando/${date}/${TEST_NAME}/${screenshot_name}.jpg
+    Capture Page Screenshot    screenshots/eveclassTestandoAluno/${date}/${TEST_NAME}/${screenshot_name}.jpg
